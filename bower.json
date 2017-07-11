@@ -15,9 +15,10 @@
     "qzone",
     "linkedin",
     "facebook",
-    "google"
+    "google",
+    "line"
   ],
-  "homepage": "https://github.com/overtrue/share.js",
+  "homepage": "https://github.com/hitobias/share.js",
   "ignore": [
     "**/.*",
     "node_modules",

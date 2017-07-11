@@ -1,10 +1,10 @@
 
 @font-face {font-family: "socialshare";
-  src: url('../fonts/iconfont.eot'); /* IE9*/
-  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('../fonts/iconfont.woff') format('woff'), /* chrome, firefox */
-  url('../fonts/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('../fonts/socialshare.eot'); /* IE9*/
+  src: url('../fonts/socialshare.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/socialshare.woff') format('woff'), /* chrome, firefox */
+  url('../fonts/socialshare.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/socialshare.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .social-share {
@@ -30,7 +30,7 @@
   .icon-facebook:before { content: "\f03a"; }
   .icon-google:before { content: "\f04a"; }
   .icon-twitter:before { content: "\f06a"; }
-
+  .icon-line:before { content: "\f21a"; }
   a {
     position:relative;
     text-decoration:none;
@@ -119,6 +119,14 @@
       background:#307DCA;
     }
   }
+
+  .icon-line{
+    position:relative;color:#7bc549;border-color:#7bc549;
+    &:hover{
+      background:#7bc549;
+    }
+  }
+
   .icon-wechat{
     position:relative;color:#7bc549;border-color:#7bc549;
     &:hover{

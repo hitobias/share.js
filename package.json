@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/overtrue/share.js.git"
+    "url": "git+https://github.com/hitobias/share.js.git"
   },
   "keywords": [
     "sns",
@@ -20,30 +20,31 @@
     "qzone",
     "linkedin",
     "facebook",
-    "google"
+    "google",
+    "line"
   ],
-  "author": "overtrue",
+  "author": "hitobias",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/overtrue/share.js/issues"
+    "url": "https://github.com/hitobias/share.js/issues"
   },
-  "homepage": "https://github.com/overtrue/share.js#readme",
+  "homepage": "https://github.com/hitobias/share.js#readme",
   "devDependencies": {
-    "event-stream": "*",
-    "del": "*",
-    "gulp": "*",
-    "gulp-autoprefixer": "*",
+    "del": "^3.0.0",
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-combine-media-queries": "*",
-    "gulp-concat": "*",
+    "gulp-concat": "^2.6.1",
     "gulp-cssmin": "*",
-    "gulp-load-plugins": "*",
-    "gulp-rename": "*",
-    "gulp-ruby-sass": "*",
-    "gulp-size": "*",
-    "gulp-uglify": "*",
-    "gulp-util": "*",
-    "gulp-notify": "*",
     "gulp-imagemin": "*",
-    "gulp-livereload": "*"
+    "gulp-livereload": "*",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-ruby-sass": "^2.1.1",
+    "gulp-size": "^2.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "*"
   }
 }

@@ -38,12 +38,12 @@
 
             weiboKey: '',
 
-            wechatQrcodeTitle: '微信扫一扫：分享',
-            wechatQrcodeHelper: '<p>微信里点“发现”，扫一下</p><p>二维码便可将本文分享至朋友圈。</p>',
+            wechatQrcodeTitle: '微信掃 QRCode：分享文章',
+            wechatQrcodeHelper: '<p>微信裏點“發現”，掃一下</p><p>QR Code便可將本文發至朋友圈。</p>',
             wechatQrcodeSize: 100,
 
             mobileSites: [],
-            sites: ['weibo','qq','wechat','tencent','douban','qzone','linkedin','diandian','facebook','twitter','google'],
+            sites: ['weibo','qq','wechat','tencent','douban','qzone','linkedin','diandian','facebook','twitter','google','line'],
             disabled: [],
             initialized: false
         };
@@ -61,7 +61,8 @@
             linkedin    : 'http://www.linkedin.com/shareArticle?mini=true&ro=true&title={{TITLE}}&url={{URL}}&summary={{SUMMARY}}&source={{SOURCE}}&armin=armin',
             facebook    : 'https://www.facebook.com/sharer/sharer.php?u={{URL}}&title={{TITLE}}&description={{DESCRIPTION}}&caption={{SUBHEAD}}&link={{URL}}&picture={{IMAGE}}',
             twitter     : 'https://twitter.com/intent/tweet?text={{TITLE}}&url={{URL}}&via={{SITE_URL}}',
-            google      : 'https://plus.google.com/share?url={{URL}}'
+            google      : 'https://plus.google.com/share?url={{URL}}',
+            line        : 'http://line.naver.jp/R/msg/text/?{{TITLE}}&url={{URL}}'
         };
 
         var $ariaLabels = {
@@ -69,13 +70,14 @@
             qq: "QQ",
             tencent: "腾讯微博",
             weibo: "微博",
-            wechat: "微信",
+            wechat: "微信 Wechat",
             douban: "豆瓣",
             diandian: "点点",
             linkedin: "LinkedIn",
             facebook: "Facebook",
             twitter: "Twitter",
-            google: "Google"
+            google: "Google",
+            line: "Line"
         };
 
         this.each(function() {

@@ -1,42 +1,13 @@
-[Share.js](http://overtrue.me/share.js/)
+[Share.js with line](forked from http://overtrue.me/share.js/)
 ===
 
-一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、点点等社交网站。
+一键分享到微博、QQ空间、QQ好友、微信、腾讯微博、豆瓣、Facebook、Twitter、Linkedin、Google+、Line、点点等社交网站。
 
-![qq20151127-1 2x](https://cloud.githubusercontent.com/assets/1472352/11433126/05f8b0e0-94f4-11e5-9fca-74dc9d1b633f.png)
-
-
-[DEMO](http://overtrue.me/share.js/)
-
-或者直接浏览我的博客 http://overtrue.me 或者 http://laravel.so 内容页查看效果。
-
-<p align="center">
-  <br>
-  <b>创造不息，交付不止</b>
-  <br>
-  <a href="https://www.yousails.com">
-    <img src="https://yousails.com/banners/brand.png" width=350>
-  </a>
-</p>
 
 # 安装
 
-有3种安装方式：
 
-1. 使用 [npm](https://npmjs.com)
-
-    ```shell
-    npm install social-share.js
-    ```
-2. 使用 [bower](https://bower.io)
-
-    ```shell
-    bower install social-share.js
-    ```
-
-3. 使用 [cdnjs](https://cdnjs.com/libraries/social-share.js)，引入 `share.min.css` 与 `share.min.js` 两个链接就好。 (感谢 [@mdluo](https://github.com/mdluo))
-
-4. 手动下载或者 git clone 本项目。
+1. 手动下载或者 git clone 本项目。
 
 # 使用
 
