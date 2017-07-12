@@ -42,15 +42,16 @@
   .social-share-icon {
     position:relative;
     display:inline-block;
-    width: 32px;
-    height: 32px;
-    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    font-size: 36px;
     border-radius: 50%;
-    line-height: 32px;
+    line-height: 48px;
     border:1px solid #666;
     color: #666;
     text-align: center;
     vertical-align: middle;
+    // padding-top: 10px;
     transition: background 0.6s ease-out 0s;
 
     &:hover{
